@@ -1,0 +1,30 @@
+# ---- Java / Maven ----
+backend/target/
+*.class
+*.log
+
+# ---- 本地工具与依赖缓存（不入库）----
+.tools/
+
+# ---- Node / 前端 ----
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/
+.vs/
+*.suo
+*.ntvs*
+*.njsproj
+
+# ---- 环境变量（含密钥，绝不提交）----
+.env
+.env.local
+.env.*.local
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
